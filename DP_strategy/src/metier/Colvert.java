@@ -3,7 +3,10 @@ package metier;
 public class Colvert extends Canard {
 
 	public Colvert() {
-		// TODO Auto-generated constructor stub
+		super();
+		// on définit un comportement parmi ceux qui existe 
+		comportementcancan = new Cancaner1();
+		comportementvol = new VolerAvecDesAiles();
 	}
 
 

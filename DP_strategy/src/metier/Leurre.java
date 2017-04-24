@@ -3,7 +3,10 @@ package metier;
 public class Leurre extends Canard {
 
 	public Leurre() {
-		// TODO Auto-generated constructor stub
+		super();
+		// on définit un comportement parmi ceux qui existe
+		comportementcancan = new Cancaner2();
+		comportementvol = new VolerAvecDesAiles();
 	}
 
 
